@@ -1,0 +1,14 @@
+<div>
+  <span>{{ title }} app is running!</span>
+  <br/>
+  <app-sample></app-sample><br/>
+  <app-temp-ref></app-temp-ref><br/><br/><br/> 
+  <p> current count is {{child.count}} </p>
+        <button (click)="increment()">Increment</button>
+        <button (click)="decrement()">decrement</button>
+        <app-child #child></app-child>
+</div>
+
+    
+
+   
